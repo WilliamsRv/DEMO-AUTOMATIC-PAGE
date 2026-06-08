@@ -1,0 +1,15 @@
+{
+  "name": "browser-automation",
+  "version": "1.0.0",
+  "description": "Automated browser testing with Playwright (multi-browser)",
+  "type": "module",
+  "scripts": {
+    "start": "node automation.js",
+    "brave": "BROWSER=brave node youtube-automation.js",
+    "firefox": "BROWSER=firefox node youtube-automation.js",
+    "chromium": "BROWSER=chromium node youtube-automation.js"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
